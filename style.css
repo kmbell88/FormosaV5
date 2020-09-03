@@ -42,6 +42,7 @@ body {
   box-shadow: 4px 4px 8px rgba(58, 35, 35, 0.5);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
+  transform-style: preserve-3d;
 }
 
 .flip-card-back {
