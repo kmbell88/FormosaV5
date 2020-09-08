@@ -5,6 +5,66 @@ body {
   line-height: 1.4;
 }
 
+header {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  position: relative;
+}
+
+#animated-bg {
+  transition: 1.5s ease;
+  -moz-transition: 1.5s ease;
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+}
+
+.gradient-container {
+  background: radial-gradient(at bottom right, #ffffff 60%, rgba(0, 0, 0, 0) 60%), linear-gradient(180deg, rgba(0, 0, 0, 0) 40%, #ffffff 95%);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.flex-text {
+  flex: 1;
+  align-self: center;
+}
+
+#header-text {
+  font-size: 50px;
+  text-shadow: 2px 2px 3px #555555;
+  color: #ffffff;
+  font-weight: bolder;
+  margin: 20px;
+  padding: 0;
+}
+
+.flex-text p {
+  font-size: 20px;
+  width: 100%;
+  margin: 20px;
+}
+
+.flex-img {
+  flex: 2;
+  align-self: center;
+}
+
+.flex-img img {
+  width: 100%;
+  margin: auto;
+  display: block;
+}
+
 .menu-container {
   display: flex;
   justify-content: center;
