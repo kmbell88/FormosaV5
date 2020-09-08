@@ -21,7 +21,7 @@ header {
 }
 
 .gradient-container {
-  background: radial-gradient(at bottom right, #ffffff 60%, rgba(0, 0, 0, 0) 60%), linear-gradient(180deg, rgba(0, 0, 0, 0) 40%, #ffffff 95%);
+  background: radial-gradient(at bottom right, #ffffff 60%, rgba(255, 255, 255, 0) 60%), linear-gradient(180deg, rgba(0, 0, 0, 0) 40%, #ffffff 95%);
   margin: 0;
   padding: 0;
   display: flex;
