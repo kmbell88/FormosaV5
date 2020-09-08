@@ -14,10 +14,10 @@ header {
 
 #animated-bg {
   transition: 1.5s ease;
-  -moz-transition: 1.5s ease;
   height: 100vh;
   width: 100%;
   position: absolute;
+  background-attachment: fixed;
 }
 
 .gradient-container {
@@ -70,6 +70,7 @@ header {
   justify-content: center;
   min-height: 100vh;
   flex-wrap: wrap;
+  background: #ffffff;
 }
 
 .flip-card {
