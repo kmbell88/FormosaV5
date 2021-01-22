@@ -145,3 +145,12 @@ img {
   overflow: hidden;
   margin-bottom: 150px;
 }
+
+.try-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 50%, #f9f4ee 50%), url('darkBrownDots.png');
+  height: 600px;
+  width: 400px;
+}
